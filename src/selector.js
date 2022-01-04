@@ -13,6 +13,6 @@ const obj = {
     field : {
         test: 'Oleksii'
     }
-}
+};
 
-console.log(selector (obj['field','test']));
+console.log(selector (obj, ['field','test']));
